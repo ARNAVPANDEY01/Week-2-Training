@@ -15,8 +15,8 @@ class Circle{
         return Math.PI * radius * radius;
     }
 
-    //Create a method to calculateCircumeference
-    public double calculateCircumeference(){
+    //Create a method to calculateCircumference
+    public double calculateCircumference(){
         return 2 * Math.PI * radius; 
     }
 
@@ -25,7 +25,7 @@ class Circle{
     void displayArea(){
         System.out.println("Radius" + radius);
         System.out.println("Area of circle:"+ calculateAreaOfCircle());
-        System.out.println("CircumferenceOfCircle:" + calculateCircumeference());
+        System.out.println("CircumferenceOfCircle:" + calculateCircumference());
     }
 } 
 
